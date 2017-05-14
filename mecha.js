@@ -6,6 +6,7 @@ const bot = new Discord.Client();
 
 bot.on("ready", function() {
     console.log("Mecha online");
+    bot.user.setGame("being programmed");
 });
 
 bot.on('guildMemberAdd', function(member) {
