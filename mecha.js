@@ -29,6 +29,8 @@ bot.on("message", function(message) {
         case "avatar":
           message.reply(message.author.avatarURL);
           break;
+        default:
+          message.reply("<:baka:313142911493734421> That's not how it works!");
     }
 });
 
