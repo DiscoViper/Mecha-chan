@@ -9,7 +9,7 @@ bot.on("ready", function() {
 });
 
 bot.on('guildMemberAdd', function(member) {
-    member.guild.channels.find("name", "general").send(member.toString() + "Welcome to the test server!");
+    member.guild.channels.find("name", "general").send(member.toString() + "welcome to the test server!");
 });
 
 bot.on("message", function(message) {
